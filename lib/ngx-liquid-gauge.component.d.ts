@@ -1,0 +1,31 @@
+import { OnInit, OnChanges, SimpleChanges } from '@angular/core';
+export declare class NgxLiquidGaugeComponent implements OnInit, OnChanges {
+    gauge: any;
+    id: string;
+    private defaultSettings;
+    private value;
+    private minValue;
+    private maxValue;
+    private circleThickness;
+    private circleFillGap;
+    private circleColor;
+    private waveHeight;
+    private waveCount;
+    private waveRiseTime;
+    private waveAnimateTime;
+    private waveRise;
+    private waveHeightScaling;
+    private waveAnimate;
+    private waveColor;
+    private waveOffset;
+    private textVertPosition;
+    private textSize;
+    private valueCountUp;
+    private displayPercent;
+    private textColor;
+    private waveTextColor;
+    constructor();
+    ngOnInit(): void;
+    ngOnChanges(changes: SimpleChanges): void;
+    createChart(): any;
+}
